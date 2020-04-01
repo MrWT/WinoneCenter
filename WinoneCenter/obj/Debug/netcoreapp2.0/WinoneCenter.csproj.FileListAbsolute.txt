@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WinoneCenter.deps.json
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WinoneCenter.runtimeconfig.json
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WinoneCenter.runtimeconfig.dev.json
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WinoneCenter.dll
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.AssemblyInfo.cs
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WebApplicationCoreAPIStudy4.xml
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\bin\Debug\netcoreapp2.0\WinoneCenter.pdb
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.dll
+C:\Users\user\Desktop\勝一五金行\WinoneCenter\WinoneCenter\obj\Debug\netcoreapp2.0\WinoneCenter.pdb

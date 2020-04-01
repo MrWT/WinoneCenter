@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WinoneCenter</name>
+    </assembly>
+    <members>
+        <member name="M:WinoneCenter.Controllers.CustomerController.GetAll">
+            <summary>
+            Get All Customer Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.CustomerController.GetOneByName(System.String)">
+            <summary>
+            Get One Customer Data by Name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.CustomerController.GetOneById(System.String)">
+            <summary>
+            Get One Customer Data by ObjectId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.CustomerController.Post(WinoneCenter.Models.Customer)">
+            <summary>
+            Post One Customer Data
+            </summary>
+            <param name="customer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.CustomerController.Put(WinoneCenter.Models.Customer)">
+            <summary>
+            Put One Customer Data
+            </summary>
+            <param name="customer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.EmployeeController.GetAll">
+            <summary>
+            Get All Employee Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.EmployeeController.GetOneByName(System.String)">
+            <summary>
+            Get One Employee Data by Name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.EmployeeController.GetOneById(System.String)">
+            <summary>
+            Get One Employee Data by ObjectId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.EmployeeController.Post(WinoneCenter.Models.Employee)">
+            <summary>
+            Post One Employee Data
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.EmployeeController.Put(WinoneCenter.Models.Employee)">
+            <summary>
+            Put One Employee Data
+            </summary>
+            <param name="employee"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.ProductController.GetAll">
+            <summary>
+            Get All Product Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.ProductController.GetOneByName(System.String)">
+            <summary>
+            Get One Product Data by Name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.ProductController.GetOneById(System.String)">
+            <summary>
+            Get One Product Data by ObjectId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.ProductController.Post(WinoneCenter.Models.Product)">
+            <summary>
+            Post One Product Data
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.ProductController.Put(WinoneCenter.Models.Product)">
+            <summary>
+            Put One Customer Data
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.SupplierController.GetAll">
+            <summary>
+            Get All Supplier Data
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.SupplierController.GetOneByName(System.String)">
+            <summary>
+            Get One Supplier Data by Name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.SupplierController.GetOneById(System.String)">
+            <summary>
+            Get One Supplier Data by ObjectId
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.SupplierController.Post(WinoneCenter.Models.Supplier)">
+            <summary>
+            Post One Supplier Data
+            </summary>
+            <param name="supplier"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WinoneCenter.Controllers.SupplierController.Put(WinoneCenter.Models.Supplier)">
+            <summary>
+            Put One Supplier Data
+            </summary>
+            <param name="supplier"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WinoneCenter.Models.Customer">
+            <summary>
+            客戶
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Id">
+            <summary>
+            Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Level">
+            <summary>
+            客戶等級
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.CustomerId">
+            <summary>
+            客戶帳號
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Name">
+            <summary>
+            客戶姓名
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Phone">
+            <summary>
+            客戶聯絡電話
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Address">
+            <summary>
+            客戶聯絡地址
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.LastModified">
+            <summary>
+            最新變更時間
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.DataStatus">
+            <summary>
+            資料狀態
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Password">
+            <summary>
+            客戶密碼
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Customer.Memo">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="T:WinoneCenter.Models.Employee">
+            <summary>
+            員工
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Id">
+            <summary>
+            Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Level">
+            <summary>
+            員工等級
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.EmployeeId">
+            <summary>
+            員工帳號
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Name">
+            <summary>
+            員工姓名
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Phone">
+            <summary>
+            員工聯絡電話
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Address">
+            <summary>
+            員工聯絡地址
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.LastModified">
+            <summary>
+            最新變更時間
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.DataStatus">
+            <summary>
+            資料狀態
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Password">
+            <summary>
+            密碼
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Employee.Memo">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="T:WinoneCenter.Models.Log">
+            <summary>
+            系統 Log
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.Id">
+            <summary>
+            Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.Function">
+            <summary>
+            功能別
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.Description">
+            <summary>
+            Log 描述
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.ReturnMsg">
+            <summary>
+            系統回覆訊息
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.LastModified">
+            <summary>
+            最新變更時間
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.DataStatus">
+            <summary>
+            資料狀態
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Log.Memo">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="T:WinoneCenter.Models.Product">
+            <summary>
+            商品
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Id">
+            <summary>
+            Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.ProductId">
+            <summary>
+            商品編號
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Name">
+            <summary>
+            商品名稱
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Category">
+            <summary>
+            商品種類
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Kind">
+            <summary>
+            商品類別
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Size">
+            <summary>
+            商品尺寸
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.SupplierObjectId">
+            <summary>
+            供貨商 Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.LastModified">
+            <summary>
+            最新變更時間
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.DataStatus">
+            <summary>
+            資料狀態
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Product.Memo">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="T:WinoneCenter.Models.Supplier">
+            <summary>
+            供應商
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Id">
+            <summary>
+            Object Id
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.SupplierId">
+            <summary>
+            供應商編號
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Level">
+            <summary>
+            供應商等級
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Name">
+            <summary>
+            供應商名稱
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Phone">
+            <summary>
+            供應商聯絡電話
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Address">
+            <summary>
+            供應商聯絡地址
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.Memo">
+            <summary>
+            備註
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.LastModified">
+            <summary>
+            最新變更時間
+            </summary>
+        </member>
+        <member name="P:WinoneCenter.Models.Supplier.DataStatus">
+            <summary>
+            資料狀態
+            </summary>
+        </member>
+    </members>
+</doc>
